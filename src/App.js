@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import {divided, multiplication } from './Utilities/Multyply';
+import Cosmetic from './Component/Cosmetic/Cosmetic';
+import Cosmetics from './Component/Cosmetics/Cosmetics';
+
+// import {divided} from './Utilities/Multyply'
 
 function App() {
+  const first = 25;
+  const second = 5;
+  let total = multiplication(first, second);
+  let divide = divided(first, second);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h4>Multiplication: {total}</h4>
+      <h4>Divided: {divide}</h4>
+      <Cosmetics></Cosmetics>
     </div>
   );
 }

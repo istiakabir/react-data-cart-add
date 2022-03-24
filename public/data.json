@@ -1,0 +1,38 @@
+[
+    {
+      "id": "623b0253050573a00361788c",
+      "name": "Ada Crawford",
+      "price": 22,
+      "color": "brown"
+    },
+    {
+      "id": "623b0253a7c7dba20ec1431c",
+      "name": "Jones Shannon",
+      "price": 30,
+      "color": "green"
+    },
+    {
+      "id": "623b0253fb4b503a5446483c",
+      "name": "Alana Walters",
+      "price": 20,
+      "color": "brown"
+    },
+    {
+      "id": "623b02538af776aaa59c309b",
+      "name": "Miller Barnes",
+      "price": 38,
+      "color": "green"
+    },
+    {
+      "id": "623b025307a6a27e469647b6",
+      "name": "Mamie Patel",
+      "price": 37,
+      "color": "blue"
+    },
+    {
+      "id": "623b0253a84958a25ceee032",
+      "name": "Burgess Harper",
+      "price": 39,
+      "color": "brown"
+    }
+  ]
